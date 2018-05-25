@@ -1,8 +1,10 @@
 let cadena = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-cadena.length;
+var resultado = "";
 for (let i =0; i < cadena.length; i++ ) {
-   (cadena.charCodeAt(i))
-   ((cadena.charCodeAt(i)-65+33)%26+65)
-   String.fromCharCode
-   console.log(String.fromCharCode(((cadena.charCodeAt(i)-65+33)%26+65)) )
+var letra = (cadena.charCodeAt(i)-65+33)%26+65;
+//console.log(letra)
+var letracodificada = String.fromCharCode(letra)
+  //console.log(letracodificada)
+  resultado= resultado+letracodificada
 }
+console.log(resultado)

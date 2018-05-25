@@ -3,14 +3,15 @@
 <head>
  <meta charset="utf-8">
  <title>Caesar Cipher</title>
- <h1>Cifrado Cesar</h1>
- <ul class="horizontal">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">¿Para qué sirve el cifrado Cesar?</a></li>
-    <li><a href="#">Historia</a></li>
-    <li><a href="#">Cifra y descifra tus mensajes</a></li>
+ <h1 class="titulo">Cifrado Cesar</h1>
+ <ul class="horizontal" style="overflow: auto">
+    <li><a class="colordeletrasmenu" href="#">Home</a></li>
+    <li><a class="colordeletrasmenu" href="#">¿Para qué sirve el cifrado Cesar?</a></li>
+    <li><a class="colordeletrasmenu" href="http://www.romeandart.eu/es/arte-cifrado-cesar.html">Historia</a></li>
+    <li><a class="colordeletrasmenu" href="#">Cifra y descifra tus mensajes</a></li>
     </ul>
  <link href="style.css" rel="stylesheet" type="text/css" />
+ <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
  <br>
@@ -19,22 +20,20 @@
  <div id="root"></div>
  <script src="cipher.js"></script>
  <script src="index.js"></script>
-
- <div style="float: left; width: 45%">
-  <h2>CIFRA</h2>
+ <div class="izquierda">
+  <h2 class="subtitulo">CIFRA</h2>
  <p>Escribe el mensaje que quieres CIFRAR: </p>
  <p> <input type="text" name="cifrar" size=50 /></p>
   <p><button>Resultado</button></p>
  <p><textarea name="resultado" cols="50"></textarea></p>
 </div>
-<div style="float: right; width: 45%">
-  <h2>DESCIFRA</h2>
+<div class="derecha">
+  <h2 class="subtitulo">DESCIFRA</h2>
   <p>Escribe el mensaje que quieres DESCRIFRAR: </p>
   <p> <input type="text" name="cifrar" size=50 /></p>
    <p><button>Resultado</button></p>
   <p><textarea name="resultado" cols="50"></textarea></p>
 </div>
-<div style="clear: both"></div>
 </body>
 </html>
 

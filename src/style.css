@@ -1,9 +1,56 @@
+html *{
+font-family:oswald;    
+}
 ul.horizontal{
    margin:0px;
-   padding:0;
+   padding:15px;
+   background-color: rgb(131, 125, 133);
    }
 
    ul.horizontal li{
        display:block;
        float:left;
        padding:0 10px;
+   }
+    
+    .izquierda{
+    float: left; 
+    width: 45%;
+    background: rgb(216, 53, 128);
+    padding: 20px;
+    padding-right: 15px;
+    margin-left: 25px;
+    text-align: center;
+    }
+
+    .derecha{
+    float: right;
+    width: 45%;
+    width: 45%;
+    background: rgb(243, 200, 10);
+    padding: 20px;
+    padding-right: 15px;  
+    text-align: center;     
+    margin-right: 25px;                       
+    }
+
+ .subtitulo{
+    text-align: center;
+    font-size: 28px;
+ }
+
+ .titulo{
+
+    margin-top: 0px;
+    font-size: 40px;
+    color: black;
+ }
+
+ .colordeletrasmenu{
+    color: white; 
+ }
+
+ 
+.footer{
+    text-align: center
+}
