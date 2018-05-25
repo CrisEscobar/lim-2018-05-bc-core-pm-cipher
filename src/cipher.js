@@ -1,4 +1,5 @@
 window.cipher = {
+<<<<<<< HEAD
     encode: (offset,string) => {
   
     },
@@ -11,3 +12,17 @@ window.cipher = {
    encode:primerafuncion,
    decode:segundafuncion,
   }
+=======
+  encode: (offset,string) => {
+
+  },
+ 
+   decode: () => {
+   }
+ },
+ 
+ 
+ encode:primerafuncion,
+ decode:segundafuncion,
+}
+>>>>>>> 717bdfeddde628af8cebf559388eeef849c4bc2d

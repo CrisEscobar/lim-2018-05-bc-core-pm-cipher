@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Primero se debe ingresar el texto en una variable, en este caso es:
 let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -16,5 +17,15 @@ var letracodificada = String.fromCharCode(letra)
 
 //Finalmente en la variable resultado obtengo el mensaje codificado
 resultado= resultado+letracodificada
+=======
+let cadena = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var resultado = "";
+for (let i =0; i < cadena.length; i++ ) {
+var letra = (cadena.charCodeAt(i)-65+33)%26+65;
+//console.log(letra)
+var letracodificada = String.fromCharCode(letra)
+  //console.log(letracodificada)
+  resultado= resultado+letracodificada
+>>>>>>> 717bdfeddde628af8cebf559388eeef849c4bc2d
 }
 console.log(resultado)
