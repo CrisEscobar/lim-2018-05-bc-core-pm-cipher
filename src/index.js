@@ -1,5 +1,8 @@
+
+let prueba = () => {
 //Primero se debe ingresar el texto en una variable, en este caso es:
-let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let text= document.getElementById("valor").value;
+//console.log(text)
 
 //El resultado va en la siguiente variable:
 var result = "";
@@ -9,7 +12,7 @@ for (let i =0; i < text.length; i++ ) {
 
 //Ahora creo una variable y obtengo el codigo ASCII con charCodeAt
 //Aplico también la formula
-var letter = (text.charCodeAt(i)-65+33)%26+65;
+var letter = (text.charCodeAt(i)-65+1)%26+65;
 
 //Obtengo el caracter con fromCharCode
 var lettercoded = String.fromCharCode(letter)
@@ -18,3 +21,5 @@ var lettercoded = String.fromCharCode(letter)
 result= result+lettercoded
 }
 console.log(result)
+
+}
