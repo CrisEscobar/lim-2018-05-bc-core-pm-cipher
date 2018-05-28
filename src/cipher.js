@@ -1,28 +1,17 @@
-window.cipher = {
-<<<<<<< HEAD
-    encode: (offset,string) => {
+//window.cipher = {
+    //encode: (offset,string) => {
   
-    },
+ //   },
+  // 
+    // decode: (offset,string) => {
+    // }
+  // },
    
-     decode: (offset,string) => {
-     }
-   },
    
-   
-   encode:primerafuncion,
-   decode:segundafuncion,
-  }
-=======
-  encode: (offset,string) => {
-
-  },
- 
-   decode: () => {
-   }
- },
- 
- 
- encode:primerafuncion,
- decode:segundafuncion,
-}
->>>>>>> 717bdfeddde628af8cebf559388eeef849c4bc2d
+  // encode:primerafuncion,
+   //decode:segundafuncion,
+  //}
+//offset es el número de posiciones que queremos mover a la derecha en el alfabeto y string el mensaje (texto) que queremos cifrar.
+ // cipher.encode(offset, string): 
+//offset es el número de posiciones que queremos mover a la izquierda en el alfabeto y string el mensaje (texto) que queremos decifrar.
+  //cipher.decode(offset, string): 

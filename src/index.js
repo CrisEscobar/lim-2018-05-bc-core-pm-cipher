@@ -1,5 +1,5 @@
 //Primero se debe ingresar el texto en una variable, en este caso es:
-let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let text= document.getElementById("valor").value;
 
 //El resultado va en la siguiente variable:
 var result = "";
@@ -17,4 +17,8 @@ var lettercoded = String.fromCharCode(letter)
 //Finalmente en la variable resultado obtengo el mensaje codificado
 result= result+lettercoded
 }
-console.log(result)
+//console.log(result)
+
+let prueba = () => {
+    console.log("funcionó el botón!");
+  }
