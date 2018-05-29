@@ -1,25 +1,17 @@
 
-let prueba = () => {
-//Primero se debe ingresar el texto en una variable, en este caso es:
-let text= document.getElementById("valor").value;
-//console.log(text)
-
-//El resultado va en la siguiente variable:
-var result = "";
-
-//Luego debo conseguir el codigo ASCII de cada letra. Con length hago el recorrido del string
-for (let i =0; i < text.length; i++ ) {
-
-//Ahora creo una variable y obtengo el codigo ASCII con charCodeAt
-//Aplico también la formula
-var letter = (text.charCodeAt(i)-65+1)%26+65;
-
-//Obtengo el caracter con fromCharCode
-var lettercoded = String.fromCharCode(letter)
-
-//Finalmente en la variable resultado obtengo el mensaje codificado
-result= result+lettercoded
-}
-console.log(result)
-
-}
+let cifrar = () => {
+    let string = document.getElementById("valor").value;
+    let offset = parseInt(document.getElementById("espacio").value);
+    let result = window.cipher.encode(offset,string);
+    let textoHtml = document.getElementById("cuadroresultado");
+    textoHtml.value = result
+   }
+   
+   let descifrar = () => {
+    let string = document.getElementById("valordos").value;
+    let offset = parseInt(document.getElementById("espaciodos").value);
+    let result = window.cipher.decode(offset,string);
+    let textoHtml = document.getElementById("cuadroresultadodos");
+    textoHtml.value = result
+   }
+   

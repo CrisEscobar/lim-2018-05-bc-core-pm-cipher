@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
  <meta charset="utf-8">
  <title>Caesar Cipher</title>
  <h1 class="titulo">Cifrado Cesar</h1>
  <ul class="horizontal" style="overflow: auto">
-    <li><a class="colordeletrasmenu" href="#">Home</a></li>
-    <li><a class="colordeletrasmenu" href="#">¿Para qué sirve el cifrado Cesar?</a></li>
-    <li><a class="colordeletrasmenu" href="http://www.romeandart.eu/es/arte-cifrado-cesar.html">Historia</a></li>
-    <li><a class="colordeletrasmenu" href="#">Cifra y descifra tus mensajes</a></li>
-    </ul>
+   <li>
+     <a class="colordeletrasmenu" href="#">Home</a>
+   </li>
+   <li>
+     <a class="colordeletrasmenu" href="#">¿Para qué sirve el cifrado Cesar?</a>
+   </li>
+   <li>
+     <a class="colordeletrasmenu" href="http://www.romeandart.eu/es/arte-cifrado-cesar.html">Historia</a>
+   </li>
+   <li>
+     <a class="colordeletrasmenu" href="#">Cifra y descifra tus mensajes</a>
+   </li>
+ </ul>
  <link href="style.css" rel="stylesheet" type="text/css" />
  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
+
 <body>
  <br>
  <br>
  <br>
  <div id="root"></div>
  <div class="izquierda">
-  <h2 class="subtitulo">CIFRA</h2>
- <p>Escribe el mensaje que quieres CIFRAR: </p>
- <p> <textarea type="text" name="cifrar" cols="60" id="valor"></textarea></p>
-  <p><input type="number" placeholder="N° de espacios" style="width:88px"> <button onclick="prueba()" style="width:88px">Resultado</button></p>
- <p><textarea name="resultado" cols="60" placeholder="Aquí se verá tu resultado"></textarea></p>
-</div>
-<div class="derecha">
+   <h2 class="subtitulo">CIFRA</h2>
+   <p>Escribe el mensaje que quieres CIFRAR: </p>
+   <p>
+     <textarea type="text" cols="60" id="valor"></textarea>
+   </p>
+   <p>
+     <input type="number" placeholder="N° de espacios" style="width:88px" id="espacio">
+     <button onclick="cifrar()" style="width:88px">Resultado</button>
+   </p>
+   <p>
+     <textarea  cols="60" placeholder="Aquí se verá tu resultado" id="cuadroresultado"></textarea>
+   </p>
+   <p>
+    <input type="reset" value=" Cifra otro mensaje :) ">
+   </p>
+ </div>
 
-  <h2 class="subtitulo">DESCIFRA</h2>
-  <p>Escribe el mensaje que quieres DESCRIFRAR: </p>
-  <p> <textarea type="text" name="descifrar" cols="60"></textarea></p>
-   <p><input type="number" placeholder="N° de espacios" style="width:88px"> <button style="width:88px">Resultado</button></p>
-  <p><textarea name="resultado" cols="60" placeholder="Aquí se verá tu resultado"></textarea></p>
-</div>
-<script src="cipher.js"></script>
-<script src="index.js"></script>
+ <div class="derecha">
+   <h2 class="subtitulo">DESCIFRA</h2>
+   <p>Escribe el mensaje que quieres DESCRIFRAR: </p>
+   <p>
+     <textarea type="text"  cols="60" id="valordos"></textarea>
+   </p>
+   <p>
+     <input type="number" placeholder="N° de espacios" style="width:88px" id="espaciodos">
+     <button onclick="descifrar()" style="width:88px">Resultado</button>
+   </p>
+   <p>
+     <textarea cols="60" placeholder="Aquí se verá tu resultado" id="cuadroresultadodos"></textarea>
+   <p>
+    <input type="reset" value=" Descifra otro mensaje :) ">
+   </p>
+    </p>
+ </div>
+ <script src="cipher.js"></script>
+ <script src="index.js"></script>
 </body>
+
 </html>
