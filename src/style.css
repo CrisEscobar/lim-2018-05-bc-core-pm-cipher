@@ -1,56 +1,76 @@
-html *{
+    html *{
     font-family:oswald;    
     }
+
+    h1{
+    background-color: black
+    }
+    
+    .imagen{
+    width: 100px;
+    }
+
     ul.horizontal{
-       margin:0px;
-       padding:15px;
-       background-color: rgb(131, 125, 133);
-       }
+    margin-left: -8px;
+    margin-top: 0px;
+    padding:15px;
+    background-color: rgb(73, 71, 74);
+    }
     
-       ul.horizontal li{
-           display:block;
-           float:left;
-           padding:0 10px;
-       }
+    ul.horizontal li{
+    text-decoration:none; 
+    display:block;
+    float:left;
+    padding:0 10px;
+    font-size: 18px;
+    }
         
-        .izquierda{
-        float: left; 
-        width: 45%;
-        background: rgb(216, 53, 128);
-        padding: 20px;
-        padding-right: 15px;
-        margin-left: 25px;
-        text-align: center;
-        }
+    .izquierda{
+    float: left; 
+    width: 45%;
+    background: rgb(216, 53, 128);
+    padding: 20px;
+    padding-right: 15px;
+    margin-left: 25px;
+    text-align: center;
+    }
+
+    .derecha{
+    float: right;
+    width: 45%;
+    width: 45%;
+    background: rgb(243, 200, 10);
+    padding: 20px;
+    padding-right: 15px;  
+    text-align: center;     
+    margin-right: 25px;                       
+    }
     
-        .derecha{
-        float: right;
-        width: 45%;
-        width: 45%;
-        background: rgb(243, 200, 10);
-        padding: 20px;
-        padding-right: 15px;  
-        text-align: center;     
-        margin-right: 25px;                       
-        }
+    .subtitulo{
+    text-align: center;
+    font-size: 32px;
+    }
     
-     .subtitulo{
-        text-align: center;
-        font-size: 28px;
+    .titulo{
+    margin-top: -8px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin-left: -8px;
      }
     
-     .titulo{
-    
-        margin-top: 0px;
-        font-size: 40px;
-        color: black;
-     }
-    
-     .colordeletrasmenu{
-        color: white; 
-     }
-    
-     
+    .colordeletrasmenu{
+    text-decoration: none;
+    color: white; 
+     } 
+
     .footer{
-        text-align: center
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    position: absolute;
     }
