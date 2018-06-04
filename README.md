@@ -38,10 +38,11 @@ Ambas funciones tienen sus botones y casillas respectivas para poder ejecutuar l
 Los objetivos de los usuarios son:
 1) Poder cifrar y descifrar mensajes en una aplicación que esté a su alcance
 2) Encontrar la aplicación en un navegador web a la cual pueden acceder desde cualquier lugar
-3) Cifrar y descifrar los mensajes de manera rápida y sencilla
+3) Cifrar y descifrar los mensajes de manera rápida y sencilla 
 
 * ¿Cómo crees que el producto que estás creando les está resolviendo sus problemas?
 Este producto cumple el objetivo de ser una aplicación eficaz, rápida, sencilla, donde el usuario únicamente va a tener que colocar el mensaje y cantidad de espacios, para poder obtener los mensajes cifrados y descifrados.
+Esta aplicación evita que el usuario esté realizando el cifrado y descifrado de manera manual donde probablemente tarde horas. Con esta aplicación puedes cifrar y descifrar en menos de un minuto. 😁
 
 ### Interfaz
 
@@ -82,52 +83,27 @@ Este prototipo fue diseñado para dar una idea de como sería la maquetación de
 
 
 ***Prototipo Final***
-Este es el prototipo final. Se mantuvo el menú inicial con los enlaces correctos y se mantuvieron también las dos columnas (una para cifrado y otra para decifrado), para ejecutar las funciones. Los colores fuertes buscan la diferenciación para cifrado y descifrado, asimismo las mayúsculas de ambas palabras buscan impacto en el usuario. 
+Este es el prototipo final. Se mantuvo el menú inicial con los enlaces correctos y se mantuvieron también las dos columnas (una para cifrado y otra para decifrado), para ejecutar las funciones. Los colores fuertes buscan la diferenciación para cifrado y descifrado, asimismo le dan un toque divertido. Las mayúsculas de ambas palabras buscan impacto en el usuario. 
 
-Se optó por colocar un "placeholder" para que el usuario pueda identificar fácilmente dónde se coloca el número de espacios y el lugar del resultado.
+Se optó por colocar un "placeholder" para que el usuario pueda identificar fácilmente dónde se coloca el número de espacios y el lugar del resultado. Asimismo, se implementó un logo para la página y se mantuvo el color negro para darle contraste a los colores.
 
 ![prototipo-final](https://crisescobar.files.wordpress.com/2018/06/interfaz-final.png)
 
 
 
-
-
-
 ## Código
+Para la creación de las funciones de cifrado y descifrado de la aplicación se aplico 1 fórmula mátemática, en la cual variaron los datos para cifrado en mayúsculas, cifrado en minúsculas, descifrado en mayúsculas y descifrado en minúsculas. Asimismo se implementó el reconocimiento de los espacios para los mensajes.
 
+Los pasos a seguir fueron los siguientes:
+*Ejemplo para el cifrado en mayúsculas:* 
 
+1) Recorrer el texto ingresado para encode
+2) Extraer el código Ascii 
+3) Condicionar las mayúsculas que se encuentran en el rango Ascii
+4) Aplicar la fórmula para MAYÚSCULAS
+5) Extraer la letra códificada
+6) Invocar la variable resultado con la letra codificada en MAYÚSCULA
 
-
-
-
-
-
-
-
-
-
-
-
-
-### Estructura de la carpeta
-
-```text
-./
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
-```
 
 ## Test
 Para el testeo de la aplicación se ejecutó npm con la dependencia Mocha. 
