@@ -4,7 +4,7 @@
 ¿Quieres una aplicación que te permita cifrar y descifrar mensajes mediante el `Cifrado César` ?
 Pues has llegado al lugar indicado 😃
 
-### Con esta aplicación podrás:
+### Con esta aplicación se podrá:
 
 | Interfaz | Sí o No |
 |--------------------------|----------------|
@@ -13,21 +13,10 @@ Pues has llegado al lugar indicado 😃
 | Descifrar los mensajes en MAYÚSCULAS | ✅
 | Descifrar los mensajes en MINÚSCULAS | ✅
 | Reconocer espacios para el cifrado y descifrado | ✅
+| Resetear Cifrado | ✅
+| Resetear Descifrado | ✅
 | Reconocer símbolos |❌
 
-
-## Introducción
-
-El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
-primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado por
-sustitución en el que una letra en el texto original es reemplazada por otra
-letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-El emperador Julio César lo usaba para enviar órdenes a sus generales en los
-campos de batalla, es una de las técnicas más simples y más usadas para cifrar
-un mensaje.
 
 ### Estructura de la carpeta
 
@@ -49,11 +38,10 @@ un mensaje.
     └── index.html
 ```
 ### Test
-### Definición del producto
-
-En el `README.md` cuéntanos cómo pensaste en los usuarios al desarrollar tu
-producto y cuál fue tu proceso para definir el producto final a nivel de
-experiencia y de interfaz.
+Para el testeo de la aplicación se ejecutó npm
+## Definición del producto
+### Cómo pensaste en los usuarios al desarrollar tu producto
+### cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz
 
 * quiénes son los principales usuarios de producto
 * cuáles son los objetivos de estos usuarios en relación con el producto
@@ -62,31 +50,18 @@ experiencia y de interfaz.
 
 ### Interfaz
 
-La interfaz debe permite al usuario:
+La interfaz permite al usuario:
+▶️ ***Cifrado***
+* Insertar un mensaje (texto) que se quiere cifrar
+* Elegir un `offset` que permite al usuario indicar cuántas posiciones se debe desplazar el carácter del mensaje
+* Ver el resultado del mensaje cifrado en un text area
 
-* elegir un `offset` indicando cuántas posiciones queremos que el cifrado
-  desplace cada caracter
-* insertar un mensaje (texto) que queremos cifrar
-* ver el resultado del mensaje cifrado
-* insertar un mensaje (texto) a descifrar
-* ver el resultado del mensaje descifrado
+◀️ ***Descifrado***
+
 
 
 
 ## Sketching y prototipado
-
-
-
-### Tech
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 2
-| Nomenclatura/semántica | 2
-| Funciones/modularidad | 1
-| Estructuras de datos | 0
-| Tests | 2
 
 
 
