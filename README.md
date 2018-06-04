@@ -61,7 +61,25 @@ La interfaz permite al usuario:
 ## Sketching y prototipado
 Por medio de la aplicación se realizó un prototipado de cómo sería la interfaz:
 
+***Prototipo 1***
+[cifrado César](https://crisescobar.files.wordpress.com/2018/06/prot-1.png)
+
 ## Código
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Estructura de la carpeta
 
 ```text
@@ -81,18 +99,15 @@ Por medio de la aplicación se realizó un prototipado de cómo sería la interf
     ├── headless.js
     └── index.html
 ```
-### Estructura de la carpeta
 
 ## Test
 Para el testeo de la aplicación se ejecutó npm con la dependencia Mocha. 
 
-#### Los resultados fueron:
+**Los resultados fueron:**
 
 | Test unitarios | Requeridos |Resultado  |
 |--------------------------|----------------|-------|
 | Statements, functions y lines | 70% | 100% ✅
-| Cifrar los mensajes en MINÚSCULAS | 50% |90% ✅
-
-
+| Branches | 50% |90% ✅
 
 ***
