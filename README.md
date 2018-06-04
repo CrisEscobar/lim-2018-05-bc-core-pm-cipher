@@ -38,6 +38,8 @@ Ambas funciones tienen sus botones y casillas respectivas para poder ejecutuar l
 #### ¿Cuál fue el proceso para definir el producto final a nivel de experiencia y de interfaz?
 
 * ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+Primero, debemos esclarecer que los usuarios para esta aplicación son hombres y mujeres que implementan la tecnología en su vida diaria. Son usuarios que buscan resultados de manera instantánea sin hacer mucho "trabajo"  
+
 Los objetivos de los usuarios son:
 1) Poder cifrar y descifrar mensajes en una aplicación que esté a su alcance
 2) Encontrar la aplicación en un navegador web a la cual pueden acceder desde cualquier lugar
@@ -98,6 +100,7 @@ Se optó por colocar un "placeholder" para que el usuario pueda identificar fác
 Para la creación de las funciones de cifrado y descifrado de la aplicación se aplico 1 fórmula mátemática, en la cual variaron los datos para cifrado en mayúsculas, cifrado en minúsculas, descifrado en mayúsculas y descifrado en minúsculas. Asimismo se implementó el reconocimiento de los espacios para los mensajes.
 
 Los pasos a seguir fueron los siguientes:
+
 *Ejemplo para el cifrado en mayúsculas:* 
 
 1) Recorrer el texto ingresado para encode
@@ -119,3 +122,4 @@ Para el testeo de la aplicación se ejecutó npm con la dependencia Mocha.
 | Branches | 50% |90% ✅
 
 ***
+Created by Cristina Escobar ®
