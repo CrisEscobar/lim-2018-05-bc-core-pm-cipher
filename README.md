@@ -62,7 +62,7 @@ La interfaz permite al usuario:
 Por medio de la aplicación se realizó un prototipado de cómo sería la interfaz:
 
 ***Prototipo 1***
-[cifrado César](https://crisescobar.files.wordpress.com/2018/06/prot-1.png)
+![caeser-cipher](https://crisescobar.files.wordpress.com/2018/06/prot-1.png)
 
 ## Código
 
