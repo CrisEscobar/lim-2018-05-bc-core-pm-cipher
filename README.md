@@ -69,10 +69,13 @@ La interfaz permite al usuario:
 
 📋 ***Menú***
 * El menú está conformado por:
-1. Home
-2. Conoce los códigos
-3. Historia
-4. Cifra y descifra tus mensajes
+1. `Home`
+2. `Conoce los códigos`
+3. `Historia`
+4. `Cifra y descifra tus mensajes`
+
+* ↪️ El usuario podrá hacer click en `Conoce los códigos` para redigirse a un enlace con la información referida a este apartado.
+* ↪️ El usuario podrá hacer click en `Historia` para redigirse a un enlace con la información referida a este apartado.
 
 ## Sketching y prototipado
 Por medio de la aplicación se realizó un prototipado de cómo sería la interfaz:
