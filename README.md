@@ -2,7 +2,8 @@
 
 ## Bienvenidos
 ¿Quieres una aplicación que te permita cifrar y descifrar mensajes mediante el `Cifrado César` ?
-Pues has llegado al lugar indicado 😃
+
+➡️ Pues has llegado al lugar indicado 😃
 
 ### Con esta aplicación podrás:
 
@@ -24,6 +25,8 @@ Pues has llegado al lugar indicado 😃
 3. Se deberá dar click en el botón resultado para ejectuar el mensaje cifrado o descifrado
 4. El resultado se mostrará en el recuadro de abajo que indica "Aquí se verá tu resultado"
 5. Si el usuario quiere ingresar otro mensaje para cifrar o descifrar, puede hacerlo dando click en el botón "Cifra otro mensaje" o "Descifrar otro mensaje. 
+
+![pasos](https://crisescobar.files.wordpress.com/2018/06/pasos.png)
 
 
 ## Definición del producto
