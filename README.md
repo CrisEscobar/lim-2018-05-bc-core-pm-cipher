@@ -62,7 +62,19 @@ La interfaz permite al usuario:
 Por medio de la aplicación se realizó un prototipado de cómo sería la interfaz:
 
 ***Prototipo 1***
-![caeser-cipher](https://crisescobar.files.wordpress.com/2018/06/prot-1.png)
+
+![prototipo-uno](https://crisescobar.files.wordpress.com/2018/06/prot-1.png)
+
+Este prototipo fue diseñado para dar una idea de como sería el diseño de la interfaz. Se colocó un menú con el fin de brindar más información y se diseño dos columnas (una para cifrado y otra para decifrado), que es donde se ejecutaría las funciones. 
+
+***Prototipo Final***
+
+![prototipo-final](https://crisescobar.files.wordpress.com/2018/06/interfaz-final.png)
+
+
+
+
+
 
 ## Código
 
