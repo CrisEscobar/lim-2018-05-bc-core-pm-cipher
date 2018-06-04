@@ -1,17 +1,6 @@
 # Cifrado César
 
-## Preámbulo
-
-Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
-fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
-con amigos y familiares.
-
-Un gran problema es que pones tu alarma para levantarte temprano, sin embargo
-(como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma
-y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides
-crear una aplicación que te permita enviar mensajes cifrados y que las demás
-personas (partícipes de la fiesta) puedan tener una interfaz para
-descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
+## Bienvenidos
 
 ## Introducción
 
@@ -79,11 +68,7 @@ test`.
 
 El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene el _boilerplate_.
-
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
+### Estructura
 
 ```text
 ./
@@ -102,7 +87,7 @@ como toda la configuración de dependencias y tests de ejemplo:
     ├── headless.js
     └── index.html
 ```
-
+### Test
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 [htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
 `JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
