@@ -1,7 +1,8 @@
 # Cifrado César
 
 ## Bienvenidos
-La aplicación Cifrado César te permitirá codificar y decodificar los mensajes que quieras
+¿Quieres una aplicación que te permita cifrar y descifrar mensajes mediante el `Cifrado César` ?
+Pues has llegado al lugar indicado 😃
 
 ## Introducción
 
