@@ -89,7 +89,7 @@ Para el testeo de la aplicación se ejecutó npm con la dependencia Mocha.
 #### Los resultados fueron:
 
 | Test unitarios | Requeridos |Resultado  |
-|--------------------------|----------------|
+|--------------------------|----------------|-------|
 | Statements, functions y lines | 70% | 100% ✅
 | Cifrar los mensajes en MINÚSCULAS | 50% |90% ✅
 
