@@ -4,6 +4,18 @@
 ¿Quieres una aplicación que te permita cifrar y descifrar mensajes mediante el `Cifrado César` ?
 Pues has llegado al lugar indicado 😃
 
+### Con esta aplicación podrás:
+
+| Interfaz | Sí o No |
+|--------------------------|----------------|
+| Cifrar los mensajes en MAYÚSCULAS | ✅
+| Cifrar los mensajes en MINÚSCULAS | ✅
+| Descifrar los mensajes en MAYÚSCULAS | ✅
+| Descifrar los mensajes en MINÚSCULAS | ✅
+| Reconocer espacios para el cifrado y descifrado | ✅
+| Reconocer símbolos |❌
+
+
 ## Introducción
 
 El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
@@ -17,7 +29,7 @@ El emperador Julio César lo usaba para enviar órdenes a sus generales en los
 campos de batalla, es una de las técnicas más simples y más usadas para cifrar
 un mensaje.
 
-### Estructura
+### Estructura de la carpeta
 
 ```text
 ./
@@ -48,9 +60,9 @@ experiencia y de interfaz.
 * cómo crees que el producto que estás creando les está resolviendo sus
   problemas
 
-### UI
+### Interfaz
 
-La interfaz debe permitir al usuario:
+La interfaz debe permite al usuario:
 
 * elegir un `offset` indicando cuántas posiciones queremos que el cifrado
   desplace cada caracter
@@ -64,13 +76,6 @@ La interfaz debe permitir al usuario:
 ## Sketching y prototipado
 
 
-### General
-
-| Característica/Habilidad | Nivel esperado |
-|--------------------------|----------------|
-| Completitud | 3
-| Investigación | 3
-| Documentación | 2
 
 ### Tech
 
