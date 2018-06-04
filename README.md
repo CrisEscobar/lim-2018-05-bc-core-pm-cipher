@@ -4,7 +4,7 @@
 ¿Quieres una aplicación que te permita cifrar y descifrar mensajes mediante el `Cifrado César` ?
 Pues has llegado al lugar indicado 😃
 
-### Con esta aplicación se podrá:
+### Con esta aplicación podrás:
 
 | Interfaz | Sí o No |
 |--------------------------|----------------|
@@ -15,6 +15,7 @@ Pues has llegado al lugar indicado 😃
 | Reconocer espacios para el cifrado y descifrado | ✅
 | Resetear Cifrado | ✅
 | Resetear Descifrado | ✅
+| Interactuar con un menú | ✅
 | Reconocer símbolos |❌
 
 
@@ -53,16 +54,29 @@ Para el testeo de la aplicación se ejecutó npm
 La interfaz permite al usuario:
 
 ▶️ ***Cifrado***
-* Insertar un mensaje (texto) que se quiere cifrar
+* Insertar un mensaje (texto) en un textarea
 * Elegir un `offset` que permite al usuario indicar cuántas posiciones se debe desplazar el carácter del mensaje
 * Ver el resultado del mensaje cifrado en un text area
+* Ejecutar el resultado del cifrado haciendo click en un botón
+* Resetear el cifrado haciendo click en un botón
 
 ◀️ ***Descifrado***
+* Insertar un mensaje (texto) en un textarea
+* Elegir un `offset` que permite al usuario indicar cuántas posiciones se debe desplazar el carácter del mensaje
+* Ver el resultado del mensaje descifrado en un text area
+* Ejecutar el resultado del descifrado haciendo click en un botón
+* Resetear el descifrado haciendo click en un botón
 
-
-
+📋 ***Menú***
+* El menú está conformado por:
+1. Home
+2. Conoce los códigos
+3. Historia
+4. Cifra y descifra tus mensajes
 
 ## Sketching y prototipado
+Por medio de la aplicación se realizó un prototipado de cómo sería la interfaz:
+
 
 
 
