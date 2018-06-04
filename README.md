@@ -18,10 +18,19 @@ Pues has llegado al lugar indicado 😃
 | Interactuar con un menú | ✅
 | Reconocer símbolos |❌
 
+## ¿Cómo funciona?
+1. Primero el usuario debe ingresar el mensaje que desea cifrar en el primer recuardo del cifrado o descifrado.
+2. Después tiene que elegir la cantidad de espacios a desplazar en el segundo recuadro que indica "N° de espacios.
+3. Se deberá dar click en el botón resultado para ejectuar el mensaje cifrado o descifrado
+4. El resultado se mostrará en el recuadro que indica "Aquí se verá tu resultado"
+5. Si el usuario quiere ingresar otro mensaje para cifrar o descifrar, puede hacerlo dando click en el botón "Cifra otro mensaje" o "Descifrar otro mensaje. 
+
+
 ## Definición del producto
 
 #### ¿Cómo pensaste en los usuarios al desarrollar tu producto?
-Esta aplicación tuvo que ser diseñada con bastante precisión y simpleza para el usuario pueda entenderla
+Esta aplicación tuvo que ser diseñada con bastante precisión y simpleza para que el usuario pueda entenderla, es por ello que se optó por separar el **Cifrado** del **Descifrado**. 
+Ambas funciones tienen sus botones respectivos para poder ejectuar la función de cifrar o descifrar, para dar el resultado y para resetear.
 
 #### ¿cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz
 
@@ -62,12 +71,16 @@ La interfaz permite al usuario:
 Por medio de la aplicación se realizó un prototipado de cómo sería la interfaz:
 
 ***Prototipo 1***
+Este prototipo fue diseñado para dar una idea de como sería la maquetación de la interfaz. Se colocó un menú con el fin de brindar más información y se diseño dos columnas (una para cifrado y otra para decifrado), que es donde se ejecutaría las funciones. Los colores y el formato de letra todavía estaban en prueba. 
 
 ![prototipo-uno](https://crisescobar.files.wordpress.com/2018/06/prot-1.png)
 
-Este prototipo fue diseñado para dar una idea de como sería el diseño de la interfaz. Se colocó un menú con el fin de brindar más información y se diseño dos columnas (una para cifrado y otra para decifrado), que es donde se ejecutaría las funciones. 
+
 
 ***Prototipo Final***
+Este es el prototipo final. Se mantuvo el menú inicial con los enlaces correctos y se diseño dos columnas (una para cifrado y otra para decifrado), que es donde se ejecutaría las funciones. Los colores y el formato de letra todavía estaban en prueba. 
+
+Se optó por colocar un "placeholder" para que indique al usuario en dónde se coloca el número de espacios y el lugar donde iba el resultado.
 
 ![prototipo-final](https://crisescobar.files.wordpress.com/2018/06/interfaz-final.png)
 
