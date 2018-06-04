@@ -18,31 +18,12 @@ Pues has llegado al lugar indicado 😃
 | Interactuar con un menú | ✅
 | Reconocer símbolos |❌
 
-
-### Estructura de la carpeta
-
-```text
-./
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
-```
-### Test
-Para el testeo de la aplicación se ejecutó npm
 ## Definición del producto
-### Cómo pensaste en los usuarios al desarrollar tu producto
-### cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz
+
+#### ¿Cómo pensaste en los usuarios al desarrollar tu producto?
+Esta aplicación tuvo que ser diseñada con bastante precisión y simpleza para el usuario pueda entenderla
+
+#### ¿cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz
 
 * quiénes son los principales usuarios de producto
 * cuáles son los objetivos de estos usuarios en relación con el producto
@@ -80,6 +61,37 @@ La interfaz permite al usuario:
 ## Sketching y prototipado
 Por medio de la aplicación se realizó un prototipado de cómo sería la interfaz:
 
+## Código
+### Estructura de la carpeta
+
+```text
+./
+├── .editorconfig
+├── .eslintrc
+├── .gitignore
+├── README.md
+├── package.json
+├── src
+│   ├── cipher.js
+│   ├── index.html
+│   ├── index.js
+│   └── style.css
+└── test
+    ├── cipher.spec.js
+    ├── headless.js
+    └── index.html
+```
+### Estructura de la carpeta
+
+## Test
+Para el testeo de la aplicación se ejecutó npm con la dependencia Mocha. 
+
+#### Los resultados fueron:
+
+| Test unitarios | Requeridos |Resultado  |
+|--------------------------|----------------|
+| Statements, functions y lines | 70% | 100% ✅
+| Cifrar los mensajes en MINÚSCULAS | 50% |90% ✅
 
 
 
