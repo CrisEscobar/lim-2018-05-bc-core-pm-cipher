@@ -1,31 +1,31 @@
-document.getElementById("botoncifrar").addEventListener("click", function () {
-
-    let string = document.getElementById("valor").value;
-    let offset = parseInt(document.getElementById("espacio").value);
+document.getElementById("buttomEncode").addEventListener("click", function () {  //EVENTOS PARA ENCODE
+    let string = document.getElementById("textEncode").value;
+    let offset = parseInt(document.getElementById("Encodeoffset").value);
     let result = window.cipher.encode(offset, string);
-    let textoHtml = document.getElementById("cuadroresultado");
+    let textoHtml = document.getElementById("EncodeResult");
     textoHtml.value = result
-});
-document.getElementById("botondescifrar").addEventListener("click", function () {
-    let string = document.getElementById("valordos").value;
-    let offset = parseInt(document.getElementById("espaciodos").value);
+   });
+   document.getElementById("buttomDecode").addEventListener("click", function () { //EVENTOS PARA DECODE
+    let string = document.getElementById("textDecode").value;
+    let offset = parseInt(document.getElementById("Decodeeoffset").value);
     let result = window.cipher.decode(offset, string);
-    let textoHtml = document.getElementById("cuadroresultadodos");
+    let textoHtml = document.getElementById("DecodeResult");
     textoHtml.value = result
-});
-document.getElementById("reseteocifrar").addEventListener("click", function () {
-    let textoHtml = document.getElementById("cuadroresultado");
-    textoHtml.value = "" 
-    let textoHtmldescifrar = document.getElementById("valor");
+   });
+   document.getElementById("ResetEncode").addEventListener("click", function () {  //RESETEO ENCODE
+    let textoHtml = document.getElementById("EncodeResult");
+    textoHtml.value = ""
+    let textoHtmldescifrar = document.getElementById("textEncode");
     textoHtmldescifrar.value = ""
-    let offset = document.getElementById("espacio");
+    let offset = document.getElementById("Encodeoffset");
     offset.value = ""
-});
-document.getElementById("reseteodescifrar").addEventListener("click", function () {
-    let textoHtml = document.getElementById("cuadroresultadodos");
-    textoHtml.value = "" 
-    let textoHtmldescifrar = document.getElementById("valordos");
+   });
+   document.getElementById("ResetDecode").addEventListener("click", function () { //RESETEO DECODE
+    let textoHtml = document.getElementById("DecodeResult");
+    textoHtml.value = ""
+    let textoHtmldescifrar = document.getElementById("textDecode");
     textoHtmldescifrar.value = ""
-    let offset = document.getElementById("espaciodos");
+    let offset = document.getElementById("Decodeeoffset");
     offset.value = ""
-});
+   });
+   

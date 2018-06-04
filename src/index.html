@@ -1,73 +1,75 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
-  <link rel="icon" type="image/png" href="C:\Users\Cristina Escobar\Desktop\logo.png" />
-  <meta charset="utf-8">
-  <title> Caesar Cipher</title>
-  <h1 class="titulo">
-    <img src="C:\Users\Cristina Escobar\Desktop\logo.png" class="imagen"> Cifrado Cesar</h1>
-  <ul class="horizontal" style="overflow: auto">
-    <li>
-      <a class="colordeletrasmenu" href="#"> Home </a>
-    </li>
-    <li>
-      <a class="colordeletrasmenu" href="https://ascii.cl/es/"> Conoce los códigos </a>
-    </li>
-    <li>
-      <a class="colordeletrasmenu" href="http://www.romeandart.eu/es/arte-cifrado-cesar.html"> Historia </a>
-    </li>
-    <li>
-      <a class="colordeletrasmenu" href="#"> Cifra y descifra tus mensajes </a>
-    </li>
-  </ul>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+ <link rel="icon" type="image/png" href="https://crisescobar.files.wordpress.com/2018/06/cesar-dos1.png"/>
+ <meta charset="utf-8">
+ <title> Caesar Cipher</title>
+ <h1 class="titulo">
+   <img src="https://crisescobar.files.wordpress.com/2018/06/cesar-dos1.png" class="imagen"> Cifrado Cesar</h1>
+ <ul class="horizontal" style="overflow: auto">
+   <li>
+     <a class="colordeletrasmenu"> Home </a>
+   </li>
+   <li>
+     <a class="colordeletrasmenu" href="https://ascii.cl/es/"> Conoce los códigos </a>
+   </li>
+   <li>
+     <a class="colordeletrasmenu" href="http://www.romeandart.eu/es/arte-cifrado-cesar.html"> Historia </a>
+   </li>
+   <li>
+     <a class="colordeletrasmenu"> Cifra y descifra tus mensajes </a>
+   </li>
+ </ul>
+ <link href="style.css" rel="stylesheet" type="text/css" />
+ <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
 <body>
-  <br>
-  <br>
-  <br>
-  <div id="root"></div>
-  <div class="izquierda">
-    <h2 class="subtitulo">CIFRA</h2>
-    <p>Escribe el mensaje que quieres CIFRAR: </p>
-    <p>
-      <textarea type="text" cols="60" id="valor"></textarea>
-    </p>
-    <p>
-      <input type="number" placeholder="N° de espacios" style="width:88px" id="espacio">
-      <button style="width:88px" id="botoncifrar">Resultado</button>
-    </p>
-    <p>
-      <textarea cols="60" placeholder="Aquí se verá tu resultado" id="cuadroresultado"></textarea>
-    </p>
-    <p>
-      <button value=" Cifra otro mensaje " id="reseteocifrar"> Cifra otro mensaje </button>
-    </p>
-  </div>
+ <br>
+ <br>
+ <br>
+ <div id="root"></div>
+ <div class="left">
+   <h2 class="subtitulo">CIFRA</h2>
+   <p>Escribe el mensaje que quieres CIFRAR: </p>
+   <p>
+     <textarea type="text" cols="60" id="textEncode"></textarea>
+   </p>
+   <p>
+     <input type="number" placeholder="N° de espacios" style="width:px" id="Encodeoffset">
+     <button style="width:88px" id="buttomEncode">Resultado</button>
+   </p>
+   <p>
+     <i>
+       <textarea cols="60" placeholder="Aquí se verá tu resultado" id="EncodeResult"></textarea>
+     </i>
+   </p>
+   <p>
+     <button value=" Cifra otro mensaje " id="ResetEncode"> Cifra otro mensaje </button>
+   </p>
+ </div>
 
-  <div class="derecha">
-    <h2 class="subtitulo">DESCIFRA</h2>
-    <p>Escribe el mensaje que quieres DESCRIFRAR: </p>
-    <p>
-      <textarea type="text" cols="60" id="valordos"></textarea>
-    </p>
-    <p>
-      <input type="number" placeholder="N° de espacios" style="width:88px" id="espaciodos">
-      <button style="width:88px" id="botondescifrar">Resultado</button>
-    </p>
-    <p>
-      <textarea cols="60" placeholder="Aquí se verá tu resultado" id="cuadroresultadodos"></textarea>
-      <p>
-        <button value=" Descifra otro mensaje " id="reseteodescifrar"> Descifra otro mensaje </button>
-      </p>
-    </p>
-  </div>
-  <p class="footer"> Created by Cristina Escobar ® </p>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+ <div class="right">
+   <h2 class="subtitulo">DESCIFRA</h2>
+   <p>Escribe el mensaje que quieres DESCRIFRAR: </p>
+   <p>
+     <textarea type="text" cols="60" id="textDecode"></textarea>
+   </p>
+   <p>
+     <input type="number" placeholder="N° de espacios" style="width:88px" id="Decodeeoffset">
+     <button style="width:88px" id="buttomDecode">Resultado</button>
+   </p>
+   <p>
+     <textarea cols="60" placeholder="Aquí se verá tu resultado" id="DecodeResult"></textarea>
+     <p>
+       <button value=" Descifra otro mensaje " id="ResetDecode"> Descifra otro mensaje </button>
+     </p>
+   </p>
+ </div>
+ <p class="footer"> Created by Cristina Escobar ® </p>
+ <script src="cipher.js"></script>
+ <script src="index.js"></script>
 </body>
-
 </html>
