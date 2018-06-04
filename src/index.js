@@ -1,24 +1,31 @@
-//Primero se debe ingresar el texto en una variable, en este caso es:
-let text= document.getElementById("valor").value;
+document.getElementById("buttomEncode").addEventListener("click", function () {  //EVENTOS PARA ENCODE
+  let string = document.getElementById("textEncode").value;
+  let offset = parseInt(document.getElementById("Encodeoffset").value);
+  let result = window.cipher.encode(offset, string);
+  let textoHtml = document.getElementById("EncodeResult");
+  textoHtml.value = result
+});
+document.getElementById("buttomDecode").addEventListener("click", function () { //EVENTOS PARA DECODE
+  let string = document.getElementById("textDecode").value;
+  let offset = parseInt(document.getElementById("Decodeeoffset").value);
+  let result = window.cipher.decode(offset, string);
+  let textoHtml = document.getElementById("DecodeResult");
+  textoHtml.value = result
+});
+document.getElementById("ResetEncode").addEventListener("click", function () {  //RESETEO ENCODE
+  let textoHtml = document.getElementById("EncodeResult");
+  textoHtml.value = ""
+  let textoHtmldescifrar = document.getElementById("textEncode");
+  textoHtmldescifrar.value = ""
+  let offset = document.getElementById("Encodeoffset");
+  offset.value = ""
+});
+document.getElementById("ResetDecode").addEventListener("click", function () { //RESETEO DECODE
+  let textoHtml = document.getElementById("DecodeResult");
+  textoHtml.value = ""
+  let textoHtmldescifrar = document.getElementById("textDecode");
+  textoHtmldescifrar.value = ""
+  let offset = document.getElementById("Decodeeoffset");
+  offset.value = ""
+});
 
-//El resultado va en la siguiente variable:
-var result = "";
-
-//Luego debo conseguir el codigo ASCII de cada letra. Con length hago el recorrido del string
-for (let i =0; i < text.length; i++ ) {
-
-//Ahora creo una variable y obtengo el codigo ASCII con charCodeAt
-//Aplico también la formula
-var letter = (text.charCodeAt(i)-65+33)%26+65;
-
-//Obtengo el caracter con fromCharCode
-var lettercoded = String.fromCharCode(letter)
-
-//Finalmente en la variable resultado obtengo el mensaje codificado
-result= result+lettercoded
-}
-//console.log(result)
-
-let prueba = () => {
-    console.log("funcionó el botón!");
-  }
