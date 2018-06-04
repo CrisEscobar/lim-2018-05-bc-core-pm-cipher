@@ -51,6 +51,7 @@ Para el testeo de la aplicación se ejecutó npm
 ### Interfaz
 
 La interfaz permite al usuario:
+
 ▶️ ***Cifrado***
 * Insertar un mensaje (texto) que se quiere cifrar
 * Elegir un `offset` que permite al usuario indicar cuántas posiciones se debe desplazar el carácter del mensaje
